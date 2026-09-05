@@ -51,10 +51,12 @@ nav ul li a:hover {
 
 /* MAIN / CARD */
 main {
-  flex: 1;
+flex: 1;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 30px;              
+  flex-wrap: wrap;       
   padding: 40px 20px;
 }
 
